@@ -8,18 +8,6 @@ This pipeline cleans and normalizes network inventory data for IPAM/DNS/DHCP wor
 
 ## Setup
 
-### Install Dependencies
-
-```bash
-pip install google-genai
-```
-
-### Get Free API Key
-
-1. Visit https://aistudio.google.com/apikey
-2. Sign in with Google account
-3. Click "Create API Key"
-4. Copy the key
 
 ### Set API Key
 
