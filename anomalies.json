@@ -1,0 +1,93 @@
+[
+  {
+    "source_row_id": "2",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "octet_out_of_range",
+        "value": "10.0.1.300"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP octets to valid range (0-255)"
+    ]
+  },
+  {
+    "source_row_id": "3",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "wrong_part_count",
+        "value": "10.0.1"
+      }
+    ],
+    "recommended_actions": [
+      "Verify IP address has exactly 4 octets"
+    ]
+  },
+  {
+    "source_row_id": "4",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "wrong_part_count",
+        "value": "10.0.1.1.2"
+      }
+    ],
+    "recommended_actions": [
+      "Verify IP address has exactly 4 octets"
+    ]
+  },
+  {
+    "source_row_id": "5",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "ipv6_detected",
+        "value": "fe80::1%eth0"
+      }
+    ],
+    "recommended_actions": [
+      "Use IPv4 address or update schema to support IPv6"
+    ]
+  },
+  {
+    "source_row_id": "9",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "non_numeric_octet",
+        "value": "abc.def.ghi.jkl"
+      }
+    ],
+    "recommended_actions": [
+      "Correct or validate IP address format"
+    ]
+  },
+  {
+    "source_row_id": "10",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "negative_octet",
+        "value": "192.168.1.-1"
+      }
+    ],
+    "recommended_actions": [
+      "Correct or validate IP address format"
+    ]
+  },
+  {
+    "source_row_id": "15",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "missing",
+        "value": "N/A"
+      }
+    ],
+    "recommended_actions": [
+      "Correct or validate IP address format"
+    ]
+  }
+]

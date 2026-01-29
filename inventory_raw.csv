@@ -1,0 +1,16 @@
+source_row_id,ip,hostname,fqdn,mac,owner,device_type,site,notes
+1,192.168.010.005,HOST01,,AA-BB-CC-DD-EE-FF,priya (platform) priya@corp.example.com,server,BLR Campus,db host
+2,10.0.1.300,host-02,host-02.local,11-22-33-44-55-66,ops,,HQ Bldg 1,edge gw?
+3,10.0.1,host03,,aabb.ccdd.eeff,jane@corp.example.com,switch,HQ-BUILDING-1,
+4,10.0.1.1.2,printer-01,,00:11:22:33:44:55,Facilities,printer,HQ,
+5,fe80::1%eth0,iot-cam01,,00:aa:bb:cc:dd:ee,sec,iot,Lab-1,camera PoE on port 3
+6,127.0.0.1,local-test,,,,,N/A,
+7,169.254.10.20,host-apipa,,,,,,
+8,  10.10.10.10  ,srv-10,,,platform,server,BLR campus,
+9,abc.def.ghi.jkl,badhost,,,,,,
+10,192.168.1.-1,neg,,,,,,
+11,192.168.1.255,bcast,,,,,,Potential broadcast
+12,192.168.1.0,netid,,,,,,Potential network id
+13,8.8.8.8,dns-google,,,,router,DC-1,
+14,010.010.010.010,host-10,,,,server,,
+15,N/A,missing-ip,,,,,,
