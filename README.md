@@ -105,7 +105,4 @@ All anomalies include specific issue types and recommended corrective actions.
 
 ---
 
-## Author
 
-Sathvik  
-Data Analytics Engineering Graduate, Northeastern University 
